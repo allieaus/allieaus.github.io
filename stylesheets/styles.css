@@ -170,8 +170,8 @@ header ul a strong {
 }
 
 section {
-  width:500px;
-  float:right;
+  width:630px;
+  margin-left:320px;
   padding-bottom:50px;
 }
 
@@ -267,4 +267,59 @@ footer {
     font-size:12pt;
     color:#444;
   }
+}
+
+.pub-item {
+  display: flex;
+  align-items: flex-start; 
+  gap: 1rem; 
+  margin-bottom: 2rem;
+}
+
+.pub-img {
+  width: 170px;   
+  height: auto; 
+  border-radius: 8px; 
+}
+
+.pub-content {
+  flex: 1; 
+}
+
+.proj-item {
+  display: flex;
+  align-items: flex-start; 
+  gap: 1rem; 
+  margin-bottom: 2rem;
+}
+
+.proj-img {
+  width: 170px;   
+  height: auto; 
+  border-radius: 8px; 
+}
+
+.proj-content {
+  flex: 1; 
+}
+
+.proj-content h3 {
+  margin-top: 0;
+}
+
+.pos-item {
+  display: flex;
+  align-items: baseline;
+  gap: 1rem;
+}
+
+.pos-item .date {
+  flex: 0 0 180px; 
+  font-style: italic;
+  font-weight: normal; 
+  color: #444; 
+}
+
+.pos-item h4 {
+  margin: 0;
 }

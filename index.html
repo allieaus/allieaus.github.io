@@ -16,21 +16,23 @@
     <div class="wrapper">
       <header>
         <h1>Allison Austin</h1>
-        <img src="assets/img-3.jpg">
+        <img src="assets/img-1.png">
         <p>Contact: amaustin [at] ucdavis.edu
           <br>
-          GitHub: <a href="https://github.com/allisonaustin">allisonaustin</a><br>
-          <a href="https://scholar.google.com/citations?user=OS5dWhsAAAAJ&hl=en&oi=ao">Google Scholar</a><br>
-          <a href="docs/cv/cv_allison_austin.pdf">CV</a>
+          GitHub: <a target="_blank" rel="noopener noreferrer" href="https://github.com/allisonaustin">allisonaustin</a><br>
+          <a target="_blank" rel="noopener noreferrer" href="https://scholar.google.com/citations?user=OS5dWhsAAAAJ&hl=en&oi=ao">Google Scholar</a><br>
+          <a target="_blank" rel="noopener noreferrer" href="docs/cv/cv_allison_austin.pdf">CV</a>
         </p>
         
-        <!--<span style="font-size: 18px">News</span>--> <!--<span><small> [<a href="">more</a>]</small></span> -->
-        <!-- <p>
-          <small>[2023.11] Attended the 2023 <a href="https://iswc2023.semanticweb.org/">International Semantic Web Conference</a> in Athens, Greece</small>
+        <span style="font-size: 18px">News</span> <!--<span><small> [<a href="">more</a>]</small></span> -->
+        <p>
+          <small>[2025.06] Started internship for the <a target="_blank" rel="noopener noreferrer" href="https://www.anl.gov/cels">CELS group</a> at Argonne National Laboratory</small>
           <br>
-          <small>[2023.09] Joined the <a href="https://vidi.cs.ucdavis.edu/">VIDI Group</a> at UC Davis as a PhD student in Fall '23</small>
+          <small>[2023.11] Attended the <a target="_blank" rel="noopener noreferrer" href="https://iswc2023.semanticweb.org/">International Semantic Web Conference</a> in Athens, Greece</small>
           <br>
-        </p> -->
+          <small>[2023.09] Joined the <a target="_blank" rel="noopener noreferrer" href="https://www.cs.ucdavis.edu/~ma/people.html">VIDI Group</a> at UC Davis as a PhD student in Fall '23</small>
+          <br>
+        </p>
 
         <br>
         <p><small>Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
@@ -38,40 +40,84 @@
 
       <section>
         <p>
-          I'm a PhD student at the University of California, Davis. I currently work with <a href="https://www.cs.ucdavis.edu/~ma/">Dr. Kwan-Liu Ma</a> at the <a href="https://vidi.cs.ucdavis.edu/">VIDI Labs</a>. I previously worked with <a href="https://home.csulb.edu/~bfu/">Dr. Bo Fu</a> in the <a href="https://home.csulb.edu/~bfu/lab.html">D2 Lab</a> at California State University, Long Beach.
+          I'm a PhD student at the University of California, Davis. I currently work with <a target="_blank" rel="noopener noreferrer" href="https://www.cs.ucdavis.edu/~ma/">Dr. Kwan-Liu Ma</a> at the <a href="https://vidi.cs.ucdavis.edu/">VIDI Labs</a>. I previously worked with <a href="https://home.csulb.edu/~bfu/">Dr. Bo Fu</a> in the <a href="https://home.csulb.edu/~bfu/lab.html">D2 Lab</a> at California State University, Long Beach.
         </p>
         <p>
-          Research topics I am currently interested in are <b>visual analytics</b>, <b>time series anomaly detection,</b> and <b>high-performance computing systems.</b>
+          Research topics I am currently interested in are <b>visual analytics for explainable AI</b> and <b>monitoring high-performance computing systems.</b>
         </p>
         <br>
         
         <h2>
           On-going Projects
         </h2> 
-        <h3>
-          <a href="https://tachyon-org.github.io/">Informative Visualization of HPC Performance</a>
-        </h3>
-        With the use of high-performance computing (HPC) systems for large-scale experiments and simulations, visual analytics tools provide feasible monitoring solutions for many HPC applications. However, these systems are becoming increasingly complex and require efficient analysis of unlabelled, high-resolution data. I am currently exploring functional data analysis (FDA) techniques for streaming visualization of HPC performance data.
-        <br><br>
-
-        <h3>
-          LLMs for HPC Log Sequence Prediction
-          </h3>
-          Due to their popularity, transformer-based models, particularly large-language models (LLMS), have led the most recent efforts to predict anomalies in HPC system logs. I explored the applications of LLMs in HPC log prediction by comparing variations of GPT-2 and BERT models on predicting failure sequences in BlueGene/L supercomputer and System 20 cluster logs. [<a href="docs/papers/hpc-llm-2024.pdf">paper</a>]
-          <br><br>
+        <div class="proj-item">
+          <img src="./assets/ppi-vis.png" class="proj-img">
+          <div class="proj-content">
+            <h3>
+              Visual Analytics Approach for Evaluating LLM-Generated Protein Interaction Predictions
+            </h3>
+            <p>
+              Molecular data has been widely used to enrich visual representations of protein-protein interaction (PPI) networks, and has been expanded to support large-language models (LLMs) for various tasks (e.g. protein generation, interaction prediction). However, practical tools that highlight the validity and origin of PPI predictions is limited. I am exploring methods for evaluating and visualizing accuracy and feasibility of novel PPIs generated by LLMs.
+              [<a target="_blank" rel="noopener noreferrer" href="https://github.com/sshilpika/protein-graph-visualization-local">code</a>]
+            </p>
+          </div>
+        </div>
+        <div class="proj-item">
+          <img src="./assets/tachyon.jpg" class="proj-img">
+          <div class="proj-content">
+            <h3>
+              Visualizing Distributed Resilient Workflows and Infrastructure
+            </h3>
+            <p>
+              With the use of high-performance computing (HPC) systems for large-scale experiments and simulations, visual analytics tools provide feasible monitoring solutions for many HPC applications. I am currently exploring functional data analysis (FDA) techniques for visualizing real-time performance of HPC monitoring data. [<a target="_blank" rel="noopener noreferrer" href="https://tachyon-org.github.io/">details</a>]
+            </p>
+          </div>
+        </div>
 
         <h2>
           Publications
         </h2> 
-        <p>
-          <a href="https://doi.org/10.1007/978-3-031-47240-4_31">
-          Visualizing Mappings Between Pairwise Ontologies - An Empirical Study of Matrix and Linked Indented List in Their User Support During Class Mapping Creation and Evaluation</a>. In Proceedings of the 22nd International Semantic Web Conference (ISWC 2023),
-          [<a href="https://videolectures.net/iswc2023_austin_mapping_evaluation/">presentation</a>]
-          <br>
-          <em>Bo Fu, <b>Allison Austin</b>, Max Garcia</em> 
-          </p>
-       
-      </section>
+        <div class="pub-item">
+          <img src="./assets/ontomapvis.png" class="pub-img">
+          <div class="pub-content">
+            <b>
+            Visualizing Mappings Between Pairwise Ontologies - An Empirical Study of Matrix and Linked Indented List in Their User Support During Class Mapping Creation and Evaluation
+            </b><br>
+            In Proceedings of the 22nd International Semantic Web Conference (ISWC 2023)
+            [<a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.1007/978-3-031-47240-4_31">paper</a>]</a>[<a target="_blank" rel="noopener noreferrer" href="https://videolectures.net/iswc2023_austin_mapping_evaluation/">presentation</a>][<a target="_blank" rel="noopener noreferrer" href="https://github.com/allisonaustin/ontomapvis">code</a>]
+            <br>
+            <em>Bo Fu, <b>Allison Austin</b>, Max Garcia</em> 
+          </div>
+        </div>
+
+          <h2>
+            Experience
+          </h2> 
+          <div class="pos-item">
+            <h4>Research Aide - CELS Group, Argonne National Laboratory</h4>
+            <span class="date"><em>June 2025 – Sep 2025</em></span>
+          </div>
+
+          <div class="pos-item">
+            <h4>Graduate Researcher - VIDI Lab, UC Davis</h4>
+            <span class="date"><em>Sep 2023 – Present</em></span>
+          </div>
+
+          <div class="pos-item">
+            <h4>Undergraduate Researcher - D2 Lab, CSULB</h4>
+            <span class="date"><em>Aug 2022 – May 2023</em></span>
+          </div>
+
+        <br><br>
+        <h2>
+          Past Projects
+        </h2> 
+        <h3>
+          LLMs for Anomalous HPC Log Sequence Prediction
+          </h3>
+          Due to their popularity, transformer-based models, particularly large-language models (LLMS), have led the most recent efforts to predict anomalies in HPC system logs. We compared variations of GPT-2 and BERT models on predicting failure sequences in BlueGene/L supercomputer and System 20 cluster logs. [<a href="docs/papers/hpc-llm-2024.pdf">paper</a>]
+          <br><br>
+        </section>
       </div>
     <script src="javascripts/scale.fix.js"></script>
   </body>
