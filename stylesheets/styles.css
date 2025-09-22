@@ -308,6 +308,13 @@ footer {
   margin-bottom: 0.5rem;
 }
 
+.proj-content h4 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  color: #555; 
+  font-weight: normal; 
+}
+
 .pos-item {
   display: flex;
   align-items: baseline;
