@@ -16,7 +16,7 @@
     <div class="wrapper">
       <header>
         <h1>Allison Austin</h1>
-        <img src="assets/img-1.png" style="width:250px">
+        <img src="assets/img-1.png" style="width:230px">
         <p>Contact: amaustin [at] ucdavis.edu
           <br>
           GitHub: <a target="_blank" rel="noopener noreferrer" href="https://github.com/allisonaustin">allisonaustin</a><br>
@@ -24,8 +24,20 @@
           <a target="_blank" rel="noopener noreferrer" href="docs/cv/cv_allison.pdf">CV</a>
         </p>
         <span style="font-size: 18px;">News</span> <!--<span><small> [<a href="">more</a>]</small></span> -->
-          <div style="max-height:250px; overflow-y: scroll">
+          <div style="max-height:250px; overflow-y: scroll; padding-right: 20px;">
             <p>
+              <!-- <small>[2026.07] Started <a target="_blank" rel="noopener noreferrer" href="https://internships.fnal.gov/fermilab-computational-science-internship/">FCSI</a> internship at Fermi National Accelerator Laboratory</small>
+              <br>
+              <br>
+              <small>[2026.07] Presented work at <a target="_blank" rel="noopener noreferrer" href="https://acm-bcb.org/">ACM BCB</a> in Rende, Italy</small>
+              <br>
+              <br>
+              <small>[2026.06] Presented work at <a target="_blank" rel="noopener noreferrer" href="https://isc-hpc.com/">ISC-HPC </a> in Hamburg, Germany</small>
+              <br>
+              <br> -->
+              <small>[2026.05] Our paper "Interactive Visual Analytics for Generating and Exploring LLM-Predicted Protein-Protein Interactions" has been accepted to <a target="_blank" rel="noopener noreferrer" href="https://acm-bcb.org">ACM BCB 2026</a></small>
+              <br>
+              <br>
               <small>[2026.03] Our paper "Understanding Large-Scale HPC System Behavior Through Cluster-Based Visual Analytics" has been accepted to <a target="_blank" rel="noopener noreferrer" href="https://isc-hpc.com/">ISC 2026</a></small>
               <br>
               <br>
@@ -49,7 +61,7 @@
           Hello! I'm PhD student in the CS department at the University of California, Davis. I currently work with <a target="_blank" rel="noopener noreferrer" href="https://www.cs.ucdavis.edu/~ma/">Dr. Kwan-Liu Ma</a> at the <a target="_blank" rel="noopener noreferrer" href="https://www.cs.ucdavis.edu/~ma/people.html">VIDI Labs</a>. I previously worked with <a target="_blank" rel="noopener noreferrer" href="https://thed2lab.github.io/website/index.html">Dr. Bo Fu</a> in the <a target="_blank" rel="noopener noreferrer" href="https://thed2lab.github.io/website/lab.html">D2 Lab</a> at California State University, Long Beach.
         </p>
         <p>
-          I'm currently working on applying <b>visual analytics for monitoring high-performance computing efficiency and performance anomalies</b>.
+          I'm currently working on applying <b>visual analytics</b> for <b>understanding complex machine learning models</b> and <b>monitoring high-performance computing (HPC) systems</b>.
         </p>
         <br>
         
@@ -76,7 +88,7 @@
             </h3>
             <p>
               Molecular data has been widely used to enrich visual representations of protein-protein interaction (PPI) networks, and has been expanded to support large-language models (LLMs) for various tasks (e.g. protein generation, interaction prediction). I am currently exploring visualization techniques for generation and evaluation of PPIs.
-              [<a target="_blank" rel="noopener noreferrer" href="./docs/posters/cels-summer-2025.pdf">poster</a>][<a target="_blank" rel="noopener noreferrer" href="https://github.com/allisonaustin/llm-protein-graph-vis">code</a>]
+              <!-- [<a target="_blank" rel="noopener noreferrer" href="./docs/posters/cels-summer-2025.pdf">poster</a>][<a target="_blank" rel="noopener noreferrer" href="https://github.com/allisonaustin/llm-protein-graph-vis">code</a>] -->
             </p>
           </div>
         </div>
@@ -84,15 +96,29 @@
           Publications
         </h2> 
         <div class="pub-item">
-          <img src="./assets/performance-ui.png" class="pub-img">
+          <img src="./assets/ppi-pipeline.png" class="pub-img">
+          <div class="pub-content">
+          <b>
+          Interactive Visual Analytics for Generating and Exploring LLM-Predicted Protein-Protein Interactions
+          </b><br>
+          ACM Conference on Bioinformatics, Computational Biology, and Health Informatics (BCB 2026) (short paper, to appear)
+          <br>
+          <em><b>Allison Austin</b>, Shilpika, Aditya Tanikanti, Venkatram Vishwanath, Michael E. Papka, Kwan-Liu Ma</em> 
+          <br>
+          [<a target="_blank" rel="noopener noreferrer" href="docs/papers/pap_183.pdf">paper</a>][<a target="_blank" rel="noopener noreferrer" href="https://github.com/allisonaustin/protein-graph-vis">code</a>]
+        </div>
+        </div>
+        <div class="pub-item">
+          <img src="./assets/cluster-va-workflow.png" class="pub-img">
           <div class="pub-content">
           <b>
           Understanding Large-Scale HPC System Behavior Through Cluster-Based Visual Analytics
           </b><br>
           ISC High Performance 2026 (to appear)
-          [<a target="_blank" rel="noopener noreferrer" href="docs/papers/pap_236.pdf">paper</a>][<a target="_blank" rel="noopener noreferrer" href="https://github.com/VIDILabs/node-cluster-vis">code</a>]
           <br>
           <em><b>Allison Austin</b>, Shilpika, Yan To Linus Lam, Yun-Hsin Kuo, Venkatram Vishwanath, Michael E. Papka, Kwan-Liu Ma</em> 
+          <br>  
+          [<a target="_blank" rel="noopener noreferrer" href="docs/papers/pap_236.pdf">paper</a>][<a target="_blank" rel="noopener noreferrer" href="https://github.com/VIDILabs/node-cluster-vis">code</a>]
           </div>
         </div>
         <div class="pub-item">
@@ -101,10 +127,11 @@
             <b>
             Visualizing Mappings Between Pairwise Ontologies - An Empirical Study of Matrix and Linked Indented List in Their User Support During Class Mapping Creation and Evaluation
             </b><br>
-            In Proceedings of the 22nd International Semantic Web Conference (ISWC 2023)
-            [<a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.1007/978-3-031-47240-4_31">paper</a>]</a>[<a target="_blank" rel="noopener noreferrer" href="https://videolectures.net/iswc2023_austin_mapping_evaluation/">presentation</a>][<a target="_blank" rel="noopener noreferrer" href="https://github.com/allisonaustin/ontomapvis">code</a>]
+            International Semantic Web Conference (ISWC 2023)
             <br>
             <em>Bo Fu, <b>Allison Austin</b>, Max Garcia</em> 
+            <br>
+            [<a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.1007/978-3-031-47240-4_31">paper</a>]</a>[<a target="_blank" rel="noopener noreferrer" href="https://videolectures.net/iswc2023_austin_mapping_evaluation/">presentation</a>][<a target="_blank" rel="noopener noreferrer" href="https://github.com/allisonaustin/ontomapvis">code</a>]
           </div>
         </div>
 
@@ -117,7 +144,7 @@
           </div>
 
           <div class="pos-item">
-            <h4>FCSI Intern - Fermi National Accelerator Laboratory</h4>
+            <h4>Computational Science Intern - Fermi National Accelerator Laboratory</h4>
             <span class="date"><em>June 2026 – Sep 2026</em></span>
           </div>
           
@@ -132,18 +159,6 @@
           </div>
 
         <br><br>
-        <h2>
-          Past Projects
-        </h2> 
-        <div class="proj-item">
-          <div class="proj-content">
-            <h3>
-              Large Language Models for HPC Log Sequence Prediction
-            </h3>
-            <p>
-              Due to their popularity, transformer-based models, particularly large-language models (LLMs), have led the most recent efforts to predict anomalies in HPC system logs. We compared variations of GPT-2 and BERT models on predicting failure sequences in IBM's BlueGene/L supercomputer and LLNL's System 20 cluster logs. [<a target="_blank" rel="noopener noreferrer" href="docs/papers/hpc-llm-2024.pdf">paper</a>][<a target="_blank" rel="noopener noreferrer" href="docs/slides/transformers-hpc-logs.pdf">slides</a>]
-            </p>
-          </div>
         </section>
       </div>
     <script src="javascripts/scale.fix.js"></script>

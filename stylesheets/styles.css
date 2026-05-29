@@ -55,7 +55,7 @@ a:hover small {
 }
 
 .wrapper {
-  width:860px;
+  width:900px;
   margin:0 auto;
 }
 
@@ -170,7 +170,7 @@ header ul a strong {
 }
 
 section {
-  width:630px;
+  width:660px;
   margin-left:320px;
   padding-bottom:50px;
 }
@@ -288,7 +288,7 @@ footer {
 
 .proj-item {
   display: flex;
-  align-items: flex-start; 
+  align-items: flex-start;
   gap: 1rem; 
   margin-bottom: 1rem;
 }
